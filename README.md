@@ -1,11 +1,16 @@
-This is a template.
-There is an automation; Updating the license every 24 hours if there are changes.
-By default, this is disabled.
-Go to .github, and rename or remove LicLock.
-The only other change you should make is changing .github/funding.yml
-Either change the names, or, remove the file if you don't have GitHub sponsors setup.
-If you don't change it, people will be donating to me, NOT you.
+# C Monkey Types
 
-> [!TIP]
-> If you have a modified version of Bspace<br>
-> You should leave LicLock as it is.
+## Why?
+Because this is funny.<br>
+And it's poorly implemented, meaning it just gets funnier... and funnier...<br>
+The goal of this, is add larger bit types! :D
+
+## types
+We offer unsigned and signed flavors of integer.
+From the famous 8, to the rare but relevant 128.
+
+We also provide dumb pointers... Worse than normal pointers, and the bane of existence to the regular pointer.<br>
+Rather than living on the stack...<br>
+It lives on the heap.<br>
+Want it to be stuck on the heap forever though?<br>
+Try out or latest flavor of pointer... Autistic pointers! (Please note, read [this](https://github.com/TokynBlast/CMonkeyTypes/edit/main/DISCLAIMER.md)!!)
